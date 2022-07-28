@@ -11,6 +11,7 @@ raiz.title("Calculadora Python")
 miFrame = Frame(raiz)
 miFrame.pack()
 operacion = ""
+
 resultado = int(0)
 
 
