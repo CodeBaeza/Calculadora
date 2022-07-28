@@ -11,7 +11,6 @@ raiz.title("Calculadora Python")
 miFrame = Frame(raiz)
 miFrame.pack()
 operacion = ""
-
 resultado = int(0)
 
 
@@ -40,7 +39,6 @@ def suma(num):
 
 def el_resultado():
     global resultado 
-
     numeroPantalla.set(resultado+int(numeroPantalla.get()))
     resultado = 0
 
